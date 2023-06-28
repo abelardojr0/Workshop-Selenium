@@ -79,4 +79,4 @@ navegador.quit() #FECHA O NAVEGADOR
 #EXEMPLO DE IMPORTAÇÕES CASO VÁ USAR O FIREFOX
 # from webdriver_manager.firefox import GeckoDriverManager #BAIXAR O MOTOR DO NAVEGADOR FIREFOX
 # servico = Service(GeckoDriverManager().install())  #FAZ O DOWNLOAD AUTOMÁTICO DO MOTOR MAIS ATUALIZADO DO CHROME
-# navegador = webdriver.Firefox(service=servico)
+# navegador = webdriver.Firefox(service=servico) #NO FIREFOX NÃO PRECISA DO OPTIONS POIS ELE NÃO FECHA SOZINHO
